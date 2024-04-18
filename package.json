@@ -1,0 +1,15 @@
+{
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rimraf dist && tsc && npm start",
+    "start": "node --trace-warnings --env-file=.env dist/index.js"
+  },
+  "dependencies": {
+    "@sapphire/framework": "^5.0.10",
+    "discord.js": "^14.14.1",
+    "mongodb": "^6.5.0",
+    "rimraf": "^5.0.5",
+    "sourcebin": "^5.0.0",
+    "typescript": "^5.4.3"
+  }
+}
